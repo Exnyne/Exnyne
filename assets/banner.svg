@@ -1,36 +1,67 @@
 <svg width="1000" height="260" viewBox="0 0 1000 260" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1000" y2="260">
-      <stop offset="0%" stop-color="#020617"/>
-      <stop offset="45%" stop-color="#1e1b4b"/>
-      <stop offset="100%" stop-color="#0284c7"/>
+      <stop offset="0%" stop-color="#050816"/>
+      <stop offset="45%" stop-color="#111827"/>
+      <stop offset="75%" stop-color="#1e1b4b"/>
+      <stop offset="100%" stop-color="#0369a1"/>
     </linearGradient>
 
     <filter id="glow">
-      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feGaussianBlur stdDeviation="3.5" result="blur"/>
       <feMerge>
         <feMergeNode in="blur"/>
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
+
+    <clipPath id="typingClip">
+      <rect x="250" y="70" width="0" height="80">
+        <animate attributeName="width" from="0" to="500" dur="4.5s" fill="freeze"/>
+      </rect>
+    </clipPath>
   </defs>
 
   <rect width="1000" height="260" rx="18" fill="url(#bg)"/>
 
-  <circle cx="120" cy="70" r="3" fill="#00d9ff">
-    <animate attributeName="opacity" values="0;1;0" dur="2s" repeatCount="indefinite"/>
-  </circle>
+  <g opacity="0.18">
+    <path d="M0 55 H1000" stroke="#38bdf8"/>
+    <path d="M0 105 H1000" stroke="#38bdf8"/>
+    <path d="M0 155 H1000" stroke="#38bdf8"/>
+    <path d="M0 205 H1000" stroke="#38bdf8"/>
+    <path d="M120 0 V260" stroke="#38bdf8"/>
+    <path d="M320 0 V260" stroke="#38bdf8"/>
+    <path d="M520 0 V260" stroke="#38bdf8"/>
+    <path d="M720 0 V260" stroke="#38bdf8"/>
+    <path d="M900 0 V260" stroke="#38bdf8"/>
+  </g>
 
-  <circle cx="780" cy="95" r="3" fill="#00d9ff">
-    <animate attributeName="opacity" values="1;0;1" dur="2.5s" repeatCount="indefinite"/>
-  </circle>
+  <g stroke="#00d9ff" stroke-width="1.3" opacity="0.35">
+    <path d="M95 70 L150 50 L180 95 L230 85">
+      <animate attributeName="opacity" values="0.15;0.6;0.15" dur="4s" repeatCount="indefinite"/>
+    </path>
+    <path d="M760 80 L820 45 L875 75 L925 50">
+      <animate attributeName="opacity" values="0.6;0.2;0.6" dur="5s" repeatCount="indefinite"/>
+    </path>
+  </g>
 
-  <circle cx="870" cy="55" r="2" fill="#38bdf8">
-    <animate attributeName="opacity" values="0;1;0" dur="3s" repeatCount="indefinite"/>
-  </circle>
+  <g fill="#00d9ff">
+    <circle cx="95" cy="70" r="3">
+      <animate attributeName="opacity" values="0;1;0" dur="2.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="150" cy="50" r="3">
+      <animate attributeName="opacity" values="1;0.3;1" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="820" cy="45" r="3">
+      <animate attributeName="opacity" values="0.2;1;0.2" dur="2.8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="925" cy="50" r="3">
+      <animate attributeName="opacity" values="1;0;1" dur="3.2s" repeatCount="indefinite"/>
+    </circle>
+  </g>
 
-  <path d="M0 210 C180 170 300 250 500 210 C700 170 850 230 1000 190 V260 H0 Z" fill="#0ea5e9" opacity="0.25">
-    <animate attributeName="d" dur="6s" repeatCount="indefinite"
+  <path d="M0 210 C180 170 300 250 500 210 C700 170 850 230 1000 190 V260 H0 Z" fill="#0ea5e9" opacity="0.22">
+    <animate attributeName="d" dur="7s" repeatCount="indefinite"
       values="
       M0 210 C180 170 300 250 500 210 C700 170 850 230 1000 190 V260 H0 Z;
       M0 190 C180 240 320 180 500 220 C700 260 850 170 1000 210 V260 H0 Z;
@@ -38,16 +69,15 @@
       "/>
   </path>
 
-  <text x="50%" y="115" text-anchor="middle" font-family="Consolas, monospace" font-size="44" font-weight="700" fill="white" filter="url(#glow)">
-    <animate attributeName="opacity" values="0;1;1;0" dur="5s" repeatCount="indefinite"/>
-    Abelardo Geovani
-  </text>
+  <g clip-path="url(#typingClip)">
+    <text x="50%" y="135" text-anchor="middle" font-family="Consolas, monospace" font-size="52" font-weight="700" fill="white" filter="url(#glow)">
+      Geovani Guzman
+    </text>
+  </g>
 
-  <text x="50%" y="165" text-anchor="middle" font-family="Consolas, monospace" font-size="22" fill="#00d9ff">
-    Full Stack Developer | Frontend | Backend
-  </text>
-
-  <text x="50%" y="205" text-anchor="middle" font-family="Consolas, monospace" font-size="18" fill="#e0f2fe">
-    Actualmente en Gate Gourmet
-  </text>
+  <line x1="748" y1="85" x2="748" y2="140" stroke="#ffffff" stroke-width="4">
+    <animate attributeName="opacity" values="1;0;1" dur="0.9s" repeatCount="indefinite"/>
+    <animate attributeName="x1" from="250" to="748" dur="4.5s" fill="freeze"/>
+    <animate attributeName="x2" from="250" to="748" dur="4.5s" fill="freeze"/>
+  </line>
 </svg>
