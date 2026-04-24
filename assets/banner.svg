@@ -1,0 +1,53 @@
+<svg width="1000" height="260" viewBox="0 0 1000 260" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1000" y2="260">
+      <stop offset="0%" stop-color="#020617"/>
+      <stop offset="45%" stop-color="#1e1b4b"/>
+      <stop offset="100%" stop-color="#0284c7"/>
+    </linearGradient>
+
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1000" height="260" rx="18" fill="url(#bg)"/>
+
+  <circle cx="120" cy="70" r="3" fill="#00d9ff">
+    <animate attributeName="opacity" values="0;1;0" dur="2s" repeatCount="indefinite"/>
+  </circle>
+
+  <circle cx="780" cy="95" r="3" fill="#00d9ff">
+    <animate attributeName="opacity" values="1;0;1" dur="2.5s" repeatCount="indefinite"/>
+  </circle>
+
+  <circle cx="870" cy="55" r="2" fill="#38bdf8">
+    <animate attributeName="opacity" values="0;1;0" dur="3s" repeatCount="indefinite"/>
+  </circle>
+
+  <path d="M0 210 C180 170 300 250 500 210 C700 170 850 230 1000 190 V260 H0 Z" fill="#0ea5e9" opacity="0.25">
+    <animate attributeName="d" dur="6s" repeatCount="indefinite"
+      values="
+      M0 210 C180 170 300 250 500 210 C700 170 850 230 1000 190 V260 H0 Z;
+      M0 190 C180 240 320 180 500 220 C700 260 850 170 1000 210 V260 H0 Z;
+      M0 210 C180 170 300 250 500 210 C700 170 850 230 1000 190 V260 H0 Z
+      "/>
+  </path>
+
+  <text x="50%" y="115" text-anchor="middle" font-family="Consolas, monospace" font-size="44" font-weight="700" fill="white" filter="url(#glow)">
+    <animate attributeName="opacity" values="0;1;1;0" dur="5s" repeatCount="indefinite"/>
+    Abelardo Geovani
+  </text>
+
+  <text x="50%" y="165" text-anchor="middle" font-family="Consolas, monospace" font-size="22" fill="#00d9ff">
+    Full Stack Developer | Frontend | Backend
+  </text>
+
+  <text x="50%" y="205" text-anchor="middle" font-family="Consolas, monospace" font-size="18" fill="#e0f2fe">
+    Actualmente en Gate Gourmet
+  </text>
+</svg>
