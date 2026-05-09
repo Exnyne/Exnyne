@@ -1,12 +1,15 @@
 <p align="center">
   <img width="100%" src="./assets/banner.svg" alt="Banner Abelardo Geovani" />
 </p>
+<div align="center">
+<h3>Full-Stack Developer & Founder @ Exnyne</h3>
+<p>
+Building scalable and high-value web solutions.
+</p>
 
+</div>
 <p align="center">
-  <a href="TU_PORTAFOLIO">
-    <img src="https://img.shields.io/badge/Portafolio-000?style=for-the-badge&logo=vercel&logoColor=white" />
-  </a>
-  <a href="TU_WEBSITE">
+  <a href="https://exnyne.com">
     <img src="https://img.shields.io/badge/Website-0A66C2?style=for-the-badge&logo=google-chrome&logoColor=white" />
   </a>
   <a href="TU_LINKEDIN">
@@ -15,10 +18,6 @@
   <a href="mailto:TU_CORREO@gmail.com">
     <img src="https://img.shields.io/badge/Correo-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
   </a>
-</p>
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=exnyne&label=Profile%20Visitors&color=00d9ff&style=for-the-badge" />
 </p>
 
 ---
@@ -48,9 +47,7 @@
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 ![Hostinger](https://img.shields.io/badge/Hostinger-673DE6?style=for-the-badge&logo=hostinger&logoColor=white)
 ![Railway](https://img.shields.io/badge/Railway-0B0D0E?style=for-the-badge&logo=railway&logoColor=white)
-![Render](https://img.shields.io/badge/Render-000000?style=for-the-badge&logo=render&logoColor=white)
 ![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=cloudflare&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
 ![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
 ![SSL](https://img.shields.io/badge/SSL-000000?style=for-the-badge&logo=letsencrypt&logoColor=white)
 
@@ -59,24 +56,15 @@
 ![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
 
-
-### Herramientas
-
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-111827?style=for-the-badge&logo=github&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
-
-
 ## Estadísticas
 
-<p align="center">
+<p align="left">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=exnyne&theme=dark&hide_border=false" />
 </p>
 
 ## Contacto
 
-<p align="center">
+<p align="left">
   <a href="https://www.linkedin.com/in/geovani-guzman-8a02092b5/">
     <img src="https://img.shields.io/badge/LinkedIn-Geovani%20Guzman-0A66C2?style=for-the-badge&logo=linkedin" />
   </a>
