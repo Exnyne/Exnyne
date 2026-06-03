@@ -27,8 +27,9 @@ Building scalable and high-value web solutions.
 
 ### Frontend
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Astro](https://img.shields.io/badge/Astro-FF5D01?style=for-the-badge&logo=astro&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38BDF8?style=for-the-badge&logo=tailwindcss&logoColor=white)
 
 ### Backend e Integraciones
@@ -39,7 +40,6 @@ Building scalable and high-value web solutions.
 ![REST API](https://img.shields.io/badge/REST_API-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 ![Webhooks](https://img.shields.io/badge/Webhooks-FF6F00?style=for-the-badge&logo=webhooks&logoColor=white)
 ![Google APIs](https://img.shields.io/badge/Google_APIs-4285F4?style=for-the-badge&logo=google&logoColor=white)
-![Email API](https://img.shields.io/badge/Email_API-EA4335?style=for-the-badge&logo=gmail&logoColor=white)
 
 
 ### Deployment y DevOps
@@ -59,7 +59,9 @@ Building scalable and high-value web solutions.
 ## Estadísticas
 
 <p align="left">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=exnyne&theme=dark&hide_border=false" />
+  <a href="https://git.io/streak-stats">
+    <img src="https://streak-stats.demolab.com?user=exnyne&theme=dark&hide_border=false&v=3" alt="GitHub Streak" />
+  </a>
 </p>
 
 ## Contacto
